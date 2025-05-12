@@ -106,7 +106,7 @@ main {
 
 @media screen and (min-width: 800px) {
     .main {
-        min-height: 55vh;
+        min-height: 50vh;
         align-items: center;
     }
     .title, .text {
@@ -122,16 +122,16 @@ main {
     }
     .button {
         min-width: max-content;
-        width: 60%;
+        width: 65%;
         flex-direction: row;
         justify-content: center;
     }
     .baixar, .navegador {
-        min-width: 15rem;
+        min-width: 16rem;
         width: 30%;
     }
     .secao-img {
-        width: 35%;
+        width: 40%;
     }
     .secao-info{
         width: 25%;
@@ -160,6 +160,5 @@ main {
     }
     .end > .secao-info > .subtitle {
         width: 65%;
-        outline: 1px solid red;
     }
 }
