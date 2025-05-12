@@ -104,7 +104,7 @@ main {
     align-items: center;
 }
 
-@media screen and (min-width: 800px) and (orientation: landscape) {
+@media screen and (min-width: 800px) and (hover: hover) and (pointer: fine) {
     .main {
         min-height: 50vh;
         align-items: center;
@@ -127,7 +127,7 @@ main {
         justify-content: center;
     }
     .baixar, .navegador {
-        min-width: 16rem;
+        min-width: max-content;
         width: 30%;
     }
     .secao-img {
