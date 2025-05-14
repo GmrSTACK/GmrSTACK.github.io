@@ -20,7 +20,7 @@ main {
 }
 
 .main {
-    min-height: 45vh;
+    min-height: 50vh;
     width: 100%;
     padding: 30px 10px 20px 40px;
     color: white;
@@ -108,7 +108,7 @@ main {
 
 @media screen and (min-width: 800px) {
     .main {
-        min-height: 60vh;
+        min-height: 55vh;
         align-items: center;
     }
     .title, .text {
@@ -150,11 +150,6 @@ main {
     .secao-02 {
         flex-direction: row-reverse;
     }
-    .secao-01 > .secao-info,
-    .secao-02 > .secao-info,
-    .secao-03 > .secao-info {
-        width: 20%;
-        font-size: 40px;
     }
     .end > .secao-info {
         width: 50%;
