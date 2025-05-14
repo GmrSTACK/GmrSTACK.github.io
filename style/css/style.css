@@ -5,8 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    outline: 1px solid red;
-
 }
 
 body {
@@ -22,7 +20,7 @@ main {
 .main {
     min-height: 50vh;
     width: 100%;
-    padding: 30px 10px 20px 40px;
+    padding: 30px;
     color: white;
     background-image: url(../images/background.png);    
     background-repeat: no-repeat;
@@ -32,7 +30,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+    gap: 15px;
 }
 
 .title {
@@ -65,6 +63,18 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 25px;
+}
+
+.baixar > a {
+    color: white;
+}
+
+.navegador > a {
+    color: black;
+}
+
+a {
+    text-decoration-line: none;
 }
 
 .info {
@@ -108,19 +118,20 @@ main {
 
 @media screen and (min-width: 800px) {
     .main {
-        min-height: 55vh;
         align-items: center;
+        gap: 25px;
     }
     .title, .text {
         text-align: center;
     }
     .title {
-        min-width: 17rem;
+        min-width: max-content;
+        font-size: 56px;
         width: 20%;
         font-size: 3rem;
     }
     .text {
-        width: 50%;
+        width: 40%;
     }
     .button {
         min-width: max-content;
@@ -129,7 +140,7 @@ main {
         justify-content: center;
     }
     .baixar, .navegador {
-        padding: 10px;
+        padding: 0 15px;
         min-width: max-content;
         width: 30%;
     }
@@ -149,7 +160,6 @@ main {
     }
     .secao-02 {
         flex-direction: row-reverse;
-    }
     }
     .end > .secao-info {
         width: 50%;
