@@ -104,7 +104,7 @@ main {
     align-items: center;
 }
 
-@media screen and (min-width: 800px) and (hover: hover) and (pointer: fine) {
+@media screen and (min-width: 800px) {
     .main {
         min-height: 60vh;
         align-items: center;
