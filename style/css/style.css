@@ -66,11 +66,11 @@ main {
 }
 
 .baixar > a {
-    color: white;
+    color: black;
 }
 
 .navegador > a {
-    color: black;
+    color: white;
 }
 
 a {
@@ -89,6 +89,10 @@ a {
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+.secao-02, .end {
+    background-color: #F6F6F6;
 }
 
 .secao-img, .secao-info {
@@ -119,7 +123,7 @@ a {
 @media screen and (min-width: 800px) {
     .main {
         align-items: center;
-        gap: 25px;
+        gap: 20px;
     }
     .title, .text {
         text-align: center;
