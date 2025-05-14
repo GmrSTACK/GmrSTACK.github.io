@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+    outline: 1px solid red;
+
 }
 
 body {
@@ -118,7 +120,7 @@ main {
         font-size: 3rem;
     }
     .text {
-        width: 45%;
+        width: 50%;
     }
     .button {
         min-width: max-content;
@@ -127,11 +129,12 @@ main {
         justify-content: center;
     }
     .baixar, .navegador {
+        padding: 10px;
         min-width: max-content;
         width: 30%;
     }
     .secao-img {
-        width: 40%;
+        width: 30%;
     }
     .secao-info{
         width: 25%;
@@ -147,6 +150,12 @@ main {
     .secao-02 {
         flex-direction: row-reverse;
     }
+    .secao-01 > .secao-info,
+    .secao-02 > .secao-info,
+    .secao-03 > .secao-info {
+        width: 20%;
+        font-size: 40px;
+    }
     .end > .secao-info {
         width: 50%;
         text-align: center;
@@ -156,7 +165,7 @@ main {
         align-items: center;
     }
     .end > .secao-info > .subtext {
-        width: 80%;
+        width: 85%;
     }
     .end > .secao-info > .subtitle {
         width: 65%;
