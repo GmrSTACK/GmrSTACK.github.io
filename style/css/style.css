@@ -91,9 +91,6 @@ a {
     gap: 15px;
 }
 
-.secao-02, .end {
-    background-color: #F6F6F6;
-}
 
 .secao-img, .secao-info {
     width: 85%;
@@ -118,6 +115,18 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    .secao-02, .end {
+        background-color: #F6F6F6;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .secao-02, .end {
+        background-color: rgba(0, 0, 0, 0.26);
+    }
 }
 
 @media screen and (min-width: 800px) {
